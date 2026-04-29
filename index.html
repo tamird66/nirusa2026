@@ -390,6 +390,7 @@
 <div class="main">
   <div class="tabs">
     <button class="tab-btn active" onclick="show('itinerary',this)">📅 לו״ז שבועי</button>
+    <button class="tab-btn" onclick="show('vegas',this)">🎰 לאס וגאס</button>
     <button class="tab-btn" onclick="show('attractions',this)">🎢 אטרקציות ועלויות</button>
     <button class="tab-btn" onclick="show('travel',this)">🚗 זמני נסיעה</button>
     <button class="tab-btn" onclick="show('budget',this)">💰 תקציב כולל</button>
@@ -430,21 +431,31 @@
     </div>
 
     <div class="week-block">
-      <div class="week-header">🎢 שבוע 2 — Knott's Berry Farm ו-Disneyland (2.8–8.8)</div>
+      <div class="week-header">🎰 שבוע 2 — לאס וגאס (2.8–8.8) <span style="font-size:12px; font-weight:400; opacity:0.85; margin-right:8px;">← לפירוט מלא לחצו על הלשונית "🎰 לאס וגאס"</span></div>
       <div class="day-row">
         <div class="day-date">2.8<div class="dow">א׳</div></div>
-        <div class="day-content"><span class="badge badge-attraction">🎡 אטרקציה</span> Knott's Berry Farm — כל יום יום</div>
-        <div class="day-location">טרזנה</div>
+        <div class="day-content"><span class="badge badge-attraction">🎰 לאס וגאס</span> הגעה, Sphere, ארוחת ערב Burnt Offerings, High Roller</div>
+        <div class="day-location">לאס וגאס</div>
       </div>
       <div class="day-row">
-        <div class="day-date">3.8–5.8<div class="dow">ב׳–ד׳</div></div>
-        <div class="day-content"><span class="badge badge-attraction">🏰 אטרקציה</span> Disneyland — 3 ימים (Disneyland Park + California Adventure)</div>
-        <div class="day-location">אנהיים</div>
+        <div class="day-date">3.8<div class="dow">ב׳</div></div>
+        <div class="day-content"><span class="badge badge-nature">🏜️ טבע</span> Red Rock Canyon בוקר + Circus Circus Adventuredome + מזרקות בלאג׳יו</div>
+        <div class="day-location">לאס וגאס</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">4.8<div class="dow">ג׳</div></div>
+        <div class="day-content">Flamingo Wildlife Habitat + AREA15 + Ace of Steaks + מופע Mystère</div>
+        <div class="day-location">לאס וגאס</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">5.8<div class="dow">ד׳</div></div>
+        <div class="day-content"><span class="badge badge-shop">🛍️ קניות</span> Las Vegas North Outlets + Seven Magic Mountains + נסיעה לסן דייגו</div>
+        <div class="day-location">→ סן דייגו</div>
       </div>
       <div class="day-row">
         <div class="day-date">6.8<div class="dow">ה׳</div></div>
         <div class="day-content">Crystal Cove State Park — בריכות גאות וטבע ימי <span class="badge badge-free">חינם</span></div>
-        <div class="day-location">אנהיים→ סן דייגו</div>
+        <div class="day-location">סן דייגו</div>
       </div>
       <div class="day-row shabbat">
         <div class="day-date">7.8–8.8<div class="dow">ו׳–ש׳</div></div>
@@ -548,6 +559,180 @@
         <div class="day-content"><strong>✈️ טיסה חזרה מ-LAX — המראה 13:00</strong> &nbsp;<span style="font-size:12px; color:var(--text-muted);">(הגעה לשדה לפחות ב-10:00)</span></div>
         <div class="day-location" style="color:var(--ocean); font-weight:600;">LAX</div>
       </div>
+    </div>
+  </div>
+
+  <!-- VEGAS -->
+  <div id="vegas" class="section">
+    <div class="section-title">🎰 שבוע 2 — לאס וגאס (2.8–5.8)</div>
+
+    <div class="week-block">
+      <div class="week-header" style="background:#8B1A1A;">🎰 יום ראשון 2.8 — הגעה וחשיפה לסטריפ</div>
+      <div class="day-row">
+        <div class="day-date">12:30<div class="dow">צהריים</div></div>
+        <div class="day-content"><strong>ארוחת צהריים:</strong> Hummus Vegas &amp; Grill <span class="badge badge-attraction">בשרי גלאט</span> — ליד בית חב"ד. מומלץ להגיע ישירות מהדרך.</div>
+        <div class="day-location">2101 S Decatur</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">14:30<div class="dow">אחה"צ</div></div>
+        <div class="day-content"><strong>צ'ק-אין:</strong> מלון Treasure Island + סיור ב-Sphere (מבנה הכדורי) מבחוץ + הליכה ב-Venetian הסמוך.</div>
+        <div class="day-location">הסטריפ</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">18:00<div class="dow">ערב</div></div>
+        <div class="day-content"><strong>ארוחת ערב:</strong> Burnt Offerings <span class="badge badge-attraction">בשרי יוקרתי גלאט</span> — מסעדה מובילה ממש ליד הסטריפ.</div>
+        <div class="day-location">3909 W Sahara</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">20:00<div class="dow">לילה</div></div>
+        <div class="day-content"><strong>High Roller:</strong> עלייה לגלגל הענק לתצפית לילית מרהיבה על לאס וגאס.</div>
+        <div class="day-location">הסטריפ</div>
+      </div>
+    </div>
+
+    <div class="week-block">
+      <div class="week-header" style="background:#8B1A1A;">🏜️ יום שני 3.8 — טבע מרהיב ומופעי מים</div>
+      <div class="day-row">
+        <div class="day-date">07:00<div class="dow">בוקר</div></div>
+        <div class="day-content"><strong>ארוחת בוקר:</strong> Casa Mia <span class="badge badge-free" style="background:#EAF3DE; color:#27500A; border:none;">חלבי כשר</span> — קפה ומאפים.</div>
+        <div class="day-location">7365 W Sahara</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">08:30<div class="dow">בוקר</div></div>
+        <div class="day-content"><span class="badge badge-nature">🏜️ טבע</span> <strong>Red Rock Canyon</strong> — Scenic Drive עם נקודות תצפית על סלעים אדומים. יש להזמין Timed Entry מראש! 25 דק׳ מהסטריפ.</div>
+        <div class="day-location">Red Rock</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">12:00<div class="dow">צהריים</div></div>
+        <div class="day-content"><strong>ארוחת צהריים:</strong> Shawarma Vegas <span class="badge badge-attraction">בשרי גלאט</span></div>
+        <div class="day-location">Fort Apache</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">13:30<div class="dow">אחה"צ</div></div>
+        <div class="day-content"><strong>Circus Circus — Adventuredome:</strong> פארק שעשועים ממוזג מושלם לילדים. רכבות הרים, מתקנים ומופעי קרקס.</div>
+        <div class="day-location">הסטריפ</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">18:00<div class="dow">ערב</div></div>
+        <div class="day-content"><strong>ארוחת ערב:</strong> Jerusalem Chef's Table <span class="badge badge-attraction">בשרי ישראלי גלאט</span></div>
+        <div class="day-location">4825 W Flamingo</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">20:00<div class="dow">לילה</div></div>
+        <div class="day-content"><strong>מזרקות הבלאג׳יו</strong> — מופע מים, מוזיקה ואורות כל חצי שעה. + סיור ערב רגלי בסטריפ המואר.</div>
+        <div class="day-location">הסטריפ</div>
+      </div>
+    </div>
+
+    <div class="week-block">
+      <div class="week-header" style="background:#8B1A1A;">🦩 יום שלישי 4.8 — פלמינגו, AREA15 וסטייק חגיגי</div>
+      <div class="day-row">
+        <div class="day-date">09:30<div class="dow">בוקר</div></div>
+        <div class="day-content"><strong>Flamingo Wildlife Habitat:</strong> צפייה בפלמינגו וחיות בשעות הנעימות <span class="badge badge-free">כניסה חינם</span></div>
+        <div class="day-location">הסטריפ</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">12:00<div class="dow">צהריים</div></div>
+        <div class="day-content"><strong>ארוחת צהריים:</strong> Ariela's Pizza <span class="badge badge-free" style="background:#EAF3DE; color:#27500A; border:none;">חלבי כשר</span></div>
+        <div class="day-location">7595 W Washington</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">14:00<div class="dow">אחה"צ</div></div>
+        <div class="day-content"><strong>AREA15:</strong> מתחם בידור ואמנות אינטראקטיבי וממוזג — חוויה יוצאת דופן לבני נוער וילדים כאחד. הזמינו כרטיסים מראש!</div>
+        <div class="day-location">3215 S Rancho</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">18:00<div class="dow">ערב</div></div>
+        <div class="day-content"><strong>ארוחת ערב חגיגית:</strong> Ace of Steaks <span class="badge badge-attraction">סטייקהאוס בשרי יוקרתי גלאט</span> — הזמינו מקום מראש!</div>
+        <div class="day-location">5825 W Sahara</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">21:00<div class="dow">לילה</div></div>
+        <div class="day-content"><strong>מופע Mystère</strong> — מופע Cirque du Soleil ממוקם ב-Treasure Island (המלון שלכם!). חוויה מדהימה לכל הגילאים.</div>
+        <div class="day-location">Treasure Island</div>
+      </div>
+    </div>
+
+    <div class="week-block">
+      <div class="week-header" style="background:#8B1A1A;">🛍️ יום רביעי 5.8 — שופינג ויציאה לסן דייגו</div>
+      <div class="day-row">
+        <div class="day-date">09:30<div class="dow">בוקר</div></div>
+        <div class="day-content"><strong>Las Vegas North Premium Outlets:</strong> אאוטלט גדול עם כל המותגים. זמן שופינג אחרון!</div>
+        <div class="day-location">Las Vegas</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">12:00<div class="dow">צהריים</div></div>
+        <div class="day-content"><strong>ארוחת צהריים:</strong> Sababa Mediterranean Grill <span class="badge badge-attraction">בשרי גלאט</span></div>
+        <div class="day-location">3220 S Durango</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">13:30<div class="dow">אחה"צ</div></div>
+        <div class="day-content"><strong>Seven Magic Mountains:</strong> עצירה לצילומים על רקע המדבר — פסלי צבע ענקיים שנראים מהכביש. <span class="badge badge-free">חינם</span></div>
+        <div class="day-location">I-15 דרומה</div>
+      </div>
+      <div class="day-row">
+        <div class="day-date">14:00<div class="dow">נסיעה</div></div>
+        <div class="day-content"><strong>נסיעה לסן דייגו:</strong> ~4.5 שעות דרך I-15 דרומה.</div>
+        <div class="day-location">→ סן דייגו</div>
+      </div>
+    </div>
+
+    <!-- KOSHER RESTAURANTS TABLE -->
+    <div class="section-title" style="margin-top:1.5rem">🥩 מסעדות כשרות (גלאט) בלאס וגאס</div>
+    <div class="card">
+      <table class="card-table">
+        <tr>
+          <th style="width:30%">מסעדה</th>
+          <th style="width:15%">סוג</th>
+          <th>כתובת</th>
+        </tr>
+        <tr>
+          <td><strong>Ace of Steaks</strong><div class="note">סטייקהאוס יוקרתי</div></td>
+          <td><span class="badge badge-attraction">בשרי</span></td>
+          <td>5825 W Sahara Ave</td>
+        </tr>
+        <tr>
+          <td><strong>Burnt Offerings</strong><div class="note">גורמה ייחודי ליד הסטריפ</div></td>
+          <td><span class="badge badge-attraction">בשרי</span></td>
+          <td>3909 W Sahara Ave</td>
+        </tr>
+        <tr>
+          <td><strong>Jerusalem Chef's Table</strong><div class="note">ים תיכוני ישראלי</div></td>
+          <td><span class="badge badge-attraction">בשרי</span></td>
+          <td>4825 W Flamingo Rd</td>
+        </tr>
+        <tr>
+          <td><strong>Hummus Vegas &amp; Grill</strong><div class="note">ליד בית חב"ד</div></td>
+          <td><span class="badge badge-attraction">בשרי</span></td>
+          <td>2101 S Decatur Blvd</td>
+        </tr>
+        <tr>
+          <td><strong>Sababa Mediterranean Grill</strong></td>
+          <td><span class="badge badge-attraction">בשרי</span></td>
+          <td>3220 S Durango Dr</td>
+        </tr>
+        <tr>
+          <td><strong>Ariela's Pizza &amp; Kosher Kitchen</strong></td>
+          <td><span class="badge badge-free" style="background:#EAF3DE; color:#27500A; border:none;">חלבי</span></td>
+          <td>7595 W Washington Ave #120</td>
+        </tr>
+        <tr>
+          <td><strong>Casa Mia</strong><div class="note">ארוחות בוקר ומשפחתי</div></td>
+          <td><span class="badge badge-free" style="background:#EAF3DE; color:#27500A; border:none;">חלבי</span></td>
+          <td>7365 W Sahara Ave</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- TIPS -->
+    <div class="section-title" style="margin-top:1.5rem">💡 טיפים חשובים ללאס וגאס</div>
+    <div class="tips-grid">
+      <div class="tip-card"><span class="tip-icon">🏜️</span><h4>Red Rock Canyon</h4><p>חובה להזמין Timed Entry מראש באתר הרשמי לכניסה בין 08:00–17:00. עדיף להגיע מוקדם לפני שיא החום של אוגוסט.</p></div>
+      <div class="tip-card"><span class="tip-icon">🌡️</span><h4>חום קיצוני</h4><p>אוגוסט בלאס וגאס = 40°C+. תכננו פעילויות חוץ רק בבוקר מוקדם. בשעות הצהריים — מקומות ממוזגים בלבד (Adventuredome, AREA15).</p></div>
+      <div class="tip-card"><span class="tip-icon">🍽️</span><h4>הזמנות מסעדות</h4><p>הזמינו מקום מראש ל-Ace of Steaks ול-Burnt Offerings — הן עמוסות מאוד בקיץ, במיוחד בערבים.</p></div>
+      <div class="tip-card"><span class="tip-icon">🎭</span><h4>מופע Mystère</h4><p>Cirque du Soleil ב-Treasure Island (המלון שלכם!). הזמינו כרטיסים מראש. מתאים לכל הגילאים מגיל 5+.</p></div>
+      <div class="tip-card"><span class="tip-icon">🎰</span><h4>ילדים בקזינו</h4><p>מותר לעבור דרך הקזינו אבל אסור לעצור. הילדים חייבים להישאר בתנועה. Adventuredome ו-AREA15 הם הפתרון לבילוי הילדים.</p></div>
+      <div class="tip-card"><span class="tip-icon">🚗</span><h4>נסיעה מטרזנה</h4><p>~4–5 שעות דרך I-15 צפון. הימנעו מיציאה ביום שישי אחה"צ (פקקים כבדים). בוקר מוקדם — הכי טוב.</p></div>
     </div>
   </div>
 
